@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$https://control-total.github.io/%{REQUEST_URI} [L,R=301]
+RewriteRule ^(.*)$ u.wiidb.de/%{REQUEST_URI} [L,R=301]
