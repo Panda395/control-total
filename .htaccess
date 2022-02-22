@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ www.controltotal.tk%{REQUEST_URI} [L,R=301]
+RewriteRule ^(.*)$https://control-total.github.io/%{REQUEST_URI} [L,R=301]
